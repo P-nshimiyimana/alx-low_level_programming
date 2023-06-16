@@ -7,8 +7,7 @@
  * Return: retuns 0 shown succesful execution
  */
 int main(void)
-{	char message = "and that piece of art is useful" - Dora Korpar, "
-"2015 - 10 - 19\n";
-	write(2, message, 59)
+{	fput("and that piece of art is useful\" - Dora Kor
+par, 2015-10-19\n", stdout);
 	return (1);
 }
