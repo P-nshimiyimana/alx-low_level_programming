@@ -1,13 +1,12 @@
 #include<stdio.h>
 
 /**
- * void - prints long sentence followed with newline
- * return: 0
+ * This the main function of the program
+ * It prints specific sequence of string with 'puts' function
+ * Return: return 0 shows successful execution
  */
- 
-int main (void)
+int main(void)
 {
-
-	puts ("Programming is like building a multilingual puzzle");
-	return (0);
+	puts("Programming is like building a multilingual puzzle");
+	return 0;
 }
