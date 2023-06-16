@@ -3,7 +3,7 @@
 /**
  * void - prints long sentence followed with newline
  * return: 0
- * /
+ */
  
 int main (void)
 {
