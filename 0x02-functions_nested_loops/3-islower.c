@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - check lower case c
+ * @c: The character to print
  *
  * Return: 0 return successful executio
  */
