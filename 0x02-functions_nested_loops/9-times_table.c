@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isalpha - print lower case
- * @c: The character to print
+ * times_table - print lower case
+ *
  * Return: 0 return successful executio
  */
 void times_table(void)
