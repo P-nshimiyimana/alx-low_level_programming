@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - print lower case
+ * print_sign - print lower case
  * @n: The character to print
  * Return: 0 return successful executio
  */
@@ -20,6 +20,5 @@ int print_sign(int n)
 	{
 	_putchar (45);
 	return (-1);
-	}
-	
+	}	
 }
