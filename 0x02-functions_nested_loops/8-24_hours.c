@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * jack_bauer - print lower case
-* 
+*
 * Return: 0 return successful executio
 */
 void jack_bauer(void)
