@@ -16,7 +16,9 @@ void puts_half(char *str)
 	full_string++;
 	}
 	half_string = full_string / 2;
-	if (half_string < full_string)
+	if (full_string % 2 == 1)
+	half_string++;
+	while (half_string < full_string)
 	{
 	putchar (str[half_string]);
 	half_string++;
