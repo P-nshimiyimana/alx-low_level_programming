@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * index_of_array - writes the character c to stdout
+ * print_array - writes the character c to stdout
  * @a: String to be printed to stdout
  * @n: Int
  *
