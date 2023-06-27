@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * print_array - writes the character c to stdout
  * @a: String to be printed to stdout
