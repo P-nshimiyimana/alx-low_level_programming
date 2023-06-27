@@ -1,3 +1,4 @@
+#include <stdbool.h>
 #include <stdio.h>
 #include "main.h"
 /**
@@ -14,6 +15,7 @@ int _atoi(char *s)
 	int len = 0;
 	int f = 0;
 	int digit = 0;
+	bool negative = false;
 
 	while ((s[len]) != '\0')
 	{
@@ -24,6 +26,10 @@ int _atoi(char *s)
 	if (s[i] == '_')
 	{
 	++d;
+	}
+	if (s[i] == '-')
+	{
+	negative = !negative;
 	}
 	if (s[i] >= '0' && s[i] <= '9')
 	{
